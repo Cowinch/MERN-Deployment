@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #FF9900;
+}
+
+input, select{
+  border: 2px solid black;
+}
+
+h1 {
+  text-align: center;
+  background-color: #783F04;
+  padding: 10px 0;
+  width: 100%;
+  color: white;
+}
+
+.display-image {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+.one-image{
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 6px 10px;
+  box-shadow: 3px 3px 2px black;
+}
+
+.listed-pirate {
+  margin: 2vh 15vw;
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.top {}
+
+.right {
+  width: 100%;
+  text-align: center;
+  padding: 0 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px 15px;
+}
+
+.view {
+  background-color: #085394;
+}
+
+.deleto {
+  background-color: #CF2A27;
+}
+
+.create {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #783F04;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80vh;
+  margin: 0 15vw;
+}
+.input-box{
+}
+
+.form-itself{
+  display: flex;
+}
+
+.check-box{
+  background-color: black;
+}
+
+.display-info{
+  margin: 5vh 15vw;
+  display: flex;
+  gap: 80px;
+}
+.display-right{
+  background-color: white;
+  height: fit-content;
+  padding: 9px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
